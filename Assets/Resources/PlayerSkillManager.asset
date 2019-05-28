@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a25122044c6a6347923cc113aeeba06, type: 3}
+  m_Name: PlayerSkillManager
+  m_EditorClassIdentifier: 
+  PlayerSkills:
+  - Cost: 10
+    SkillKey: k
+    SkillName: "\u836F\u7269\u58C1\u5792"
+    CoolTime: 4
+    isOwn: 1
+    CoolDown: 1
+  - Cost: 1
+    SkillKey: j
+    SkillName: "\u8FDC\u7A0B\u6D88\u706D"
+    CoolTime: 0
+    isOwn: 1
+    CoolDown: 1
+  - Cost: 0.5
+    SkillKey: l
+    SkillName: "\u8679\u5438"
+    CoolTime: 0
+    isOwn: 1
+    CoolDown: 1
+  - Cost: 10
+    SkillKey: o
+    SkillName: "\u65E0\u6548\u5316"
+    CoolTime: 3
+    isOwn: 1
+    CoolDown: 1
